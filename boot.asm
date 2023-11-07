@@ -7,8 +7,6 @@ mov [BOOT_DRIVE], dl
 
 %include "read_disk.asm"
 %include "protmode.asm"
-
-
   
 printfoog:
     mov al, [bx + 0x7c00]
