@@ -27,6 +27,7 @@ get_input:
 
 jmp $
 
+
 [bits 16]
 loadkern:
     mov bx, KERNEL_OFFSET
